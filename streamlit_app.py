@@ -857,14 +857,12 @@ def main():
             "OpenAI API Key", 
             type="password",
             placeholder="sk-...",
-            value="sk-ABp1f2C1BWf8SkXnrEil9hP3OvsxTmnytRq4mM6Z1aT3BlbkFJiR43shY2AF75_rIKJAP4HqGY35yCJ82Ha7r-XYW1sA"
         )
         
         serpapi_key = st.text_input(
             "SerpAPI Key", 
             type="password", 
             placeholder="발급받은 SerpAPI 키",
-            value="b0eceab991f4d6987f25402fa86f49f4a5f5af4d6e8b6f1e3fa101112d88c660"
         )
         
         st.markdown("---")
